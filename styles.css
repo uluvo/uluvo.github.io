@@ -1,0 +1,51 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #333; /* Dark background color */
+    color: #ccc; /* Light text color */
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    background-color: #444; /* Slightly lighter background for container */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #ccc; /* Light text color for headings */
+}
+
+.links-list {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.links-list li {
+    margin: 10px;
+    text-align: center;
+}
+
+.links-list li img {
+    max-width: 100px;
+    height: auto;
+    border-radius: 5%;
+}
+
+.link-text {
+    display: block;
+    margin-top: 5px;
+    color: #4db8ff; /* Link text color */
+    text-decoration: none;
+}
+
+.link-text:hover {
+    color: #1a8cff; /* Hover color for links */
+}
